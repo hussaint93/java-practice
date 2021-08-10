@@ -4,6 +4,16 @@ public class User {
 	private String name;
 	private Long mobileNumber;
 	private Short age;
+	private ROLE role;
+	public User(String name, Long mobileNumber, Short age) {
+		this(name,mobileNumber);
+		this.age = age;
+	}
+	public User(String name, Long mobileNumber) {
+		super();
+		this.name = name;
+		this.mobileNumber = mobileNumber;
+	}
 	
 	public void workout() {
 		System.out.println(name +" is working out...");
