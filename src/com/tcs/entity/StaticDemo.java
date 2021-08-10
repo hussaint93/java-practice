@@ -3,8 +3,11 @@ package com.tcs.entity;
 public class StaticDemo {
 	public static void main(String[] ags) {
 		Bank bank = new Bank();
-		Bank.createNewAccountNumber();
-		Bank.createNewAccountNumber();
+		System.out.println(Bank.createNewAccountNumber());
+		System.out.println(Bank.createNewAccountNumber());
+		Bank bank1 = new Bank();
+		System.out.println(bank1.createNewAccountNumber());
+		System.out.println(bank1.createNewAccountNumber());
 	}
 }
 class Bank{
