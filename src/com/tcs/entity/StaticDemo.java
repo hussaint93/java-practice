@@ -10,15 +10,16 @@ public class StaticDemo {
 		System.out.println(bank1.createNewAccountNumber());
 		System.out.println(bank1.createNewAccountNumber());
 		System.out.println(bank1.instanceVarable);
-		
+
 	}
 }
-class Bank{
+
+class Bank {
 	static int counter;
-	int instanceVarable=10;
+	int instanceVarable = 10;
+
 	public static int createNewAccountNumber() {
 		return ++counter;
 	}
-	
-}
 
+}
