@@ -8,7 +8,7 @@ public class UncheckedExceptionDemo {
 }
 
 class User {
-	int age = 10;
+	int age = 45;
 
 	public void work() {
 		if (age <= 18) {
@@ -18,5 +18,6 @@ class User {
 		} else if (age > 60) {
 			throw new OverAgeException("Age should be less than 60");
 		}
+		System.out.println("hello brother");
 	}
 }
