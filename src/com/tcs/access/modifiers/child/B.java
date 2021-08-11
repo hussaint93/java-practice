@@ -7,3 +7,9 @@ public class B {
 		System.out.println(a.age);
 	}
 }
+class C extends A{
+	public static void main(String[] args) {
+		C c = new C();
+		System.out.println(c.che);//we can access the protected by inheriting that class
+	}
+}
