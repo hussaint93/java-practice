@@ -1,6 +1,6 @@
 package com.tcs.interfacedemo;
 
-public class Hr implements Staff {
+public class Hr implements IStaff {
 
 	@Override
 	public void work() {

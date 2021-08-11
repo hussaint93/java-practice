@@ -5,11 +5,11 @@ import java.util.List;
 
 public class Company {
 	public static void main(String[] args) {
-		Staff staff = new Guard();
+		IStaff staff = new Guard();
 		staff.work();
-		Staff staff1 = new Hr();
+		IStaff staff1 = new Hr();
 		staff.work();
-		List<Staff> allStaff=new ArrayList<>();
+		List<IStaff> allStaff=new ArrayList<>();
 		allStaff.add(staff1);
 		allStaff.add(staff1);
 		allStaff.add(staff);
