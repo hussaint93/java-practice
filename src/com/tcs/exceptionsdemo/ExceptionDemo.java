@@ -5,13 +5,16 @@ public class ExceptionDemo {
 		//demo1();
 		try {
 			demo2();
-		} catch (MyCheckedException e) {
+		}catch(InvalidInputException e) {
+			
+		} 
+		catch (MyCheckedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 
-	private static void demo2() throws MyCheckedException {
+	private static void demo2() throws MyCheckedException, InvalidInputException {
 		// TODO Auto-generated method stub
 		throw new MyCheckedException();
 		
