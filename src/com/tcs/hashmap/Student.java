@@ -1,14 +1,15 @@
-package com.tcs.mapDemo;
+package com.tcs.hashmap;
+
 
 public class Student {
 	private float math;
-	private float bio;
+	private float biology;
 	private float physics;
 
 	public Student(float math, float bio, float physics) {
 		super();
 		this.math = math;
-		this.bio = bio;
+		this.biology = bio;
 		this.physics = physics;
 	}
 
@@ -21,11 +22,11 @@ public class Student {
 	}
 
 	public float getBio() {
-		return bio;
+		return biology;
 	}
 
 	public void setBio(float bio) {
-		this.bio = bio;
+		this.biology = bio;
 	}
 
 	public float getPhysics() {
@@ -38,7 +39,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "[math=" + math + ", bio=" + bio + ", physics=" + physics + "]";
+		return "[math=" + math + ", bio=" + biology + ", physics=" + physics + "]";
 	}
 		
 }

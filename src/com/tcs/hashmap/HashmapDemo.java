@@ -1,4 +1,4 @@
-package com.tcs.mapDemo;
+package com.tcs.hashmap;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,6 @@ public class HashmapDemo {
 	}
 
 	private static void createHashMap() {
-		// TODO Auto-generated method stub
 		Map<String,Student> mathScores = new HashMap<>();
 		for(int i=0;i<20;i++) {
 			mathScores.put("student"+i,
