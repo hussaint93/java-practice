@@ -21,7 +21,7 @@ public class ArraylistDemo {
 		System.out.println(numbers);
 		//numbers.remove(11);
 	//	numbers.add(50);//adds at the end
-		numbers.add(2,50);
+		numbers.add(2,50);//adds at specified index
 		System.out.println(numbers);
 		
 	}
